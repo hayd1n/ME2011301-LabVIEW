@@ -10,11 +10,14 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="現場實作" Type="Folder" URL="../現場實作">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="1基礎題-Enum-combo box.vi" Type="VI" URL="../1基礎題-Enum-combo box.vi"/>
 		<Item Name="2基礎題-ListBox.vi" Type="VI" URL="../2基礎題-ListBox.vi"/>
-		<Item Name="3Tab切換.vi" Type="VI" URL="../../../../../../../Downloads/3Tab切換.vi"/>
+		<Item Name="3Tab切換.vi" Type="VI" URL="../3Tab切換.vi"/>
 		<Item Name="4基礎題-跑馬燈.vi" Type="VI" URL="../4基礎題-跑馬燈.vi"/>
-		<Item Name="5數字加減.vi" Type="VI" URL="../../../../../../../Downloads/5數字加減.vi"/>
+		<Item Name="5數字加減.vi" Type="VI" URL="../5數字加減.vi"/>
 		<Item Name="6進階題-ListBox.vi" Type="VI" URL="../6進階題-ListBox.vi"/>
 		<Item Name="7進階題-One Timer燈.vi" Type="VI" URL="../7進階題-One Timer燈.vi"/>
 		<Item Name="8進階題-Three Timer燈.vi" Type="VI" URL="../8進階題-Three Timer燈.vi"/>
