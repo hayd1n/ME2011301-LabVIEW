@@ -4,10 +4,12 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="Piece.ctl" Type="VI" URL="../Piece.ctl"/>
 	<Item Name="SetPiece.ctl" Type="VI" URL="../SetPiece.ctl"/>
 	<Item Name="Status.ctl" Type="VI" URL="../Status.ctl"/>
 	<Item Name="五子棋.vi" Type="VI" URL="../五子棋.vi"/>
 	<Item Name="五子棋_電腦對戰.vi" Type="VI" URL="../五子棋_電腦對戰.vi"/>
+	<Item Name="五子棋_電腦對戰V2.vi" Type="VI" URL="../五子棋_電腦對戰V2.vi"/>
 	<Item Name="白子.ctl" Type="VI" URL="../白子.ctl"/>
 	<Item Name="黑子.ctl" Type="VI" URL="../黑子.ctl"/>
 </Library>
