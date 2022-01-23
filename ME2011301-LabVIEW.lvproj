@@ -29,6 +29,7 @@
 				<Item Name="Random Number (Range) U64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) U64.vi"/>
 				<Item Name="Random Number (Range).vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range).vi"/>
 				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
+				<Item Name="Shuffle 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Shuffle 1D Array.vim"/>
 				<Item Name="sub_Random U32.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/sub_Random U32.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 			</Item>
@@ -72,6 +73,46 @@
 				<Property Name="TgtF_productName" Type="Str">Gobang_Computer</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{81CDB244-E687-49B6-AB8B-C0125A8AE230}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Gobang_Computer.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Gobang_Computer_V2" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{CD254845-C421-434F-9558-2FAE2743DE54}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{6C6BC1AA-79FD-4D23-B3C7-2A4AD6E4D072}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{3A73C9CA-FF66-44ED-8BE5-1AF2D3335F8E}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Gobang_Computer_V2</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Gobang_Computer_V2</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{90E1CA3E-5DD0-45FC-B8B3-4BFDC97CFA1A}</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Gobang_Computer_V2.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Gobang_Computer_V2/Gobang_Computer_V2.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Gobang_Computer_V2/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/VIs/Homework/20211217/gobang.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A073F734-F075-4A61-9950-D2ED91F0FDDD}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/VIs/Homework/20211217/Event 練習-五子棋-介面 Folder/五子棋.lvlib/五子棋_電腦對戰V2.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Gobang_Computer_V2</Property>
+				<Property Name="TgtF_internalName" Type="Str">Gobang_Computer_V2</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright ?2022 </Property>
+				<Property Name="TgtF_productName" Type="Str">Gobang_Computer_V2</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{E520A62E-02B4-4CD1-92A4-2967268E39F2}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Gobang_Computer_V2.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
